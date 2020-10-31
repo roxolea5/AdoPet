@@ -14,4 +14,87 @@ body {
   background-color: #cee2c6;
 }
 
+main {
+  height: 100%;
+  padding-top: 80px;
+  text-align: center;
+}
+main h1 {
+  color: #164a41;
+  font-family: "Alegreya", sans-serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+main h4 {
+  color: #4d774e;
+}
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pets-and-info {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  background-color: #f1b24a;
+  padding: 2% 3%;
+}
+.pets-and-info .top-pets {
+  background-color: #cee2c6;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.pets-and-info img {
+  width: 300px;
+  height: 300px;
+}
+
+.pets-and-info .top-pets .top-pets-content {
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+.pets-and-info .top-pets .top-pets-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.pets-and-info .top-pets .top-pets-content h3 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+
+.pets-and-info .top-pets .top-pets-content p {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.pets-and-info .top-pets .top-pets-content a {
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pets-and-info .top-pets .pet-image {
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+}
+
+.pets-and-info .top-pets .pet-image figure,
+.pets-and-info .top-pets .pet-image img {
+  margin-top: 0;
+  height: 100%;
+}
+
 /*# sourceMappingURL=adoPet.css.map */
