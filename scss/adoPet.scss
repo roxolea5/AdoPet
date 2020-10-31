@@ -1,0 +1,26 @@
+$olive-color: #164a41;
+$green-leaf-color: #4d774e;
+$harder-grey-color: #5b8f71;
+$medium-grey-color: #cee2c6;
+$egg-yellow-color: #f1b24a;
+$white: #ffffff;
+$discret-green: #effcf9;
+$neutral-color: #fffbf7;
+
+body {
+  background-color: $neutral-color;
+}
+
+.navbar {
+  background-color: $discret-green;
+
+  img {
+    width: 142px;
+    height: 37px;
+    fill: none;
+  }
+
+  .dropdown-menu {
+    background-color: $medium-grey-color;
+  }
+}

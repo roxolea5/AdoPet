@@ -1,0 +1,17 @@
+body {
+  background-color: #fffbf7;
+}
+
+.navbar {
+  background-color: #effcf9;
+}
+.navbar img {
+  width: 142px;
+  height: 37px;
+  fill: none;
+}
+.navbar .dropdown-menu {
+  background-color: #cee2c6;
+}
+
+/*# sourceMappingURL=adoPet.css.map */
