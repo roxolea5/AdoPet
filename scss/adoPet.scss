@@ -24,6 +24,8 @@ body {
   .dropdown-menu {
     background-color: $medium-green-color;
   }
+
+  .nav-item:hover .dropdown-menu{ display: block; }
 }
 
 main {  
