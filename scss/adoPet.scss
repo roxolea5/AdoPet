@@ -31,15 +31,27 @@ main {
   padding-top: 80px;
   text-align: center;
 
+  .jumbotron-fluid {
+    padding: 0;
+   }   
+   
+   .parallax{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-attachment: fixed!important;
+    overflow: hidden;
+   } 
+
   h1{
-    color: $olive-color;
+    color: $discret-green;
     font-family: "Alegreya", sans-serif;
     font-size: 60px;
     margin-bottom: 24px;
   }
 
   h4{
-    color: $green-leaf-color;
+    color: $discret-green;
   }
 
   img{
