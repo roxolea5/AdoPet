@@ -24,6 +24,8 @@ body {
   .dropdown-menu {
     background-color: $medium-green-color;
   }
+
+  .nav-item:hover .dropdown-menu{ display: block; }
 }
 
 main {  
@@ -31,15 +33,28 @@ main {
   padding-top: 80px;
   text-align: center;
 
+  .jumbotron-fluid {
+    padding: 0;
+   }   
+   
+   .parallax{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-attachment: fixed!important;
+    overflow: hidden;
+   } 
+
   h1{
-    color: $olive-color;
+    color: $egg-yellow-color;
     font-family: "Alegreya", sans-serif;
     font-size: 60px;
     margin-bottom: 24px;
   }
 
   h4{
-    color: $green-leaf-color;
+    color: $discret-green;
+    text-shadow: $egg-yellow-color;
   }
 
   img{
@@ -47,6 +62,123 @@ main {
     height: auto;
   }    
 }
+
+.aboutus{
+  .heading {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      color: $olive-color;
+      margin: 0;
+      padding: 5px;
+     }
+   }
+
+   mark{
+     color: $olive-color;
+   }
+
+   .divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 3px solid $egg-yellow-color;
+  }
+  
+  .card {
+    margin:10px;
+  
+    .card-img-top {
+      width: 250px;
+      height: 250px;
+     }
+
+    .btn{
+      color: $green-leaf-color;
+      font-weight: bold;
+
+    } 
+  }  
+}
+
+.footer {
+  background: $green-leaf-color;
+  margin-top: 100px;
+  position: relative;
+
+  .container {
+    padding: 60px 0 20px;
+   }
+
+   ul {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      text-align: center;
+      display: inline-block;
+      background: $harder-grey-color;
+      color:$neutral-color;
+      line-height: 45px;
+      margin: 0 4px;
+      width: 45px !important;
+      height: 45px !important;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+
+      a {
+        color: $neutral-color;
+        width: 42px!important;
+        height: 42px!important;
+
+        i {
+          line-height: 45px;
+          color: $neutral-color;
+         }
+       }
+
+     }
+
+     li:hover {
+      background: $olive-color;
+     }
+
+     li:hover a {
+      color: $neutral-color;
+     }
+
+
+   }
+
+   p {
+    color: $neutral-color;
+    font-size: .9em;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+   }
+
+   a, a:hover {
+  color: #fff;
+  }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+
+
 
 .pets-and-info {
   display: grid;
@@ -69,10 +201,10 @@ main {
     width: 300px;
     height: 300px;
   }
-
-
-
 }
+
+
+
 
 
   .pets-and-info .top-pets .top-pets-content {

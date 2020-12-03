@@ -13,24 +13,125 @@ body {
 .navbar .dropdown-menu {
   background-color: #cee2c6;
 }
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
 
 main {
   height: 100%;
   padding-top: 80px;
   text-align: center;
 }
+main .jumbotron-fluid {
+  padding: 0;
+}
+main .parallax {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
 main h1 {
-  color: #164a41;
+  color: #f1b24a;
   font-family: "Alegreya", sans-serif;
   font-size: 60px;
   margin-bottom: 24px;
 }
 main h4 {
-  color: #4d774e;
+  color: #effcf9;
+  text-shadow: #f1b24a;
 }
 main img {
   max-width: 100%;
   height: auto;
+}
+
+.aboutus .heading {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.aboutus .heading h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #164a41;
+  margin: 0;
+  padding: 5px;
+}
+.aboutus mark {
+  color: #164a41;
+}
+.aboutus .divider {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-top: 3px solid #f1b24a;
+}
+.aboutus .card {
+  margin: 10px;
+}
+.aboutus .card .card-img-top {
+  width: 250px;
+  height: 250px;
+}
+.aboutus .card .btn {
+  color: #4d774e;
+  font-weight: bold;
+}
+
+.footer {
+  background: #4d774e;
+  margin-top: 100px;
+  position: relative;
+}
+.footer .container {
+  padding: 60px 0 20px;
+}
+.footer ul {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer ul li {
+  text-align: center;
+  display: inline-block;
+  background: #5b8f71;
+  color: #fffbf7;
+  line-height: 45px;
+  margin: 0 4px;
+  width: 45px !important;
+  height: 45px !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.footer ul li a {
+  color: #fffbf7;
+  width: 42px !important;
+  height: 42px !important;
+}
+.footer ul li a i {
+  line-height: 45px;
+  color: #fffbf7;
+}
+.footer ul li:hover {
+  background: #164a41;
+}
+.footer ul li:hover a {
+  color: #fffbf7;
+}
+.footer p {
+  color: #fffbf7;
+  font-size: 0.9em;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer a, .footer a:hover {
+  color: #fff;
 }
 
 .pets-and-info {
