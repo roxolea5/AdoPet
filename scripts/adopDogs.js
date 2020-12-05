@@ -7,7 +7,9 @@ const data = [
         "Raza pequeña",
         "18 meses",
         "Convive con niños y otros perros."
-      ]
+      ],
+      type: "perro",
+      size: "S"
     },
     {
       img: "hamta.jpg",
@@ -16,9 +18,48 @@ const data = [
       info: [
         "Hamster",
         "2 meses"
-      ]
+      ],
+      type: "hamster",
+      size: "S"
+    },
+    {
+      img: "sonic.jpg",
+      alt: "Sonic like the game!",
+      name: "Sonic",
+      info : [
+        "1 año",
+        "Adopción especial"
+      ],
+      type: "puerco espín",
+      size: "S"
+    },
+    {
+      img: "xico.jpg",
+      alt: "Xico is a dog",
+      name: "Xico",
+      info: [
+        "Raza grande",
+        "Cariñoso con los gatos"
+      ],
+      type: "perro",
+      size: "L"
     }
   ];
+
+  const form = document.getElementById("form");
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const input = document.getElementById("filter");
+
+    const dataFiltered = filterPets(data, input.value);
+    addPetsToHTML(dataFiltered);
+  });
+
+  function filterPets(data, type) {
+    return data.filter(function(pet) {
+      return pet.type === type;
+    });
+  }
   
   function createElement(type, classNames) {
     const element = document.createElement(type);
@@ -69,13 +110,18 @@ const data = [
   
     return article;
   };
-  
-  const section = document.getElementsByClassName("pets-and-info")[0];
-  
-  const pets = data.map(function(pet) {
-    return createPetHTML(pet);
-  });
-  
-  pets.forEach(function(pet){
-    section.appendChild(pet);
-  });
+
+  function addPetsToHTML(pets) {
+    const section = document.getElementsByClassName("pets-and-info")[0];
+    section.innerHTML = "";
+
+    const petsHTML = pets.map(function(pet) {
+      return createPetHTML(pet);
+    });
+    
+    petsHTML.forEach(function(pet){
+      section.appendChild(pet);
+    });
+  }
+
+  addPetsToHTML(data);
