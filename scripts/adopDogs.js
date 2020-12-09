@@ -1,48 +1,326 @@
 const data = [
     {
-      img: "bean.jpg",
-      alt: "pug-dog-bean",
-      name: "Bean",
+      img: "baghi.jpg",
+      alt: "dog-baghi",
+      name: "Baghi",
+      info: [
+        "Raza pequeña",
+        "3 meses",
+        "Hembra",
+        "Convive con niños y otros perros"
+      ],
+      size: "S",
+      age: 3,
+      gender: "F",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
+    },
+    {
+      img: "bandit.jpg",
+      alt: "dog-bandit",
+      name: "Bandit",
+      info: [
+        "Raza pequeña",
+        "15 meses",
+        "Hembra",
+        "No convive con gatos"
+      ],
+      size: "S",
+      age: 15,
+      gender: "F",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "N"
+    },
+    {
+      img: "chip.jpg",
+      alt: "dog-chip",
+      name: "Chip",
+      info: [
+        "Raza pequeña",
+        "2 años",
+        "Macho",
+        "Convive con otros perros"
+      ],
+      size: "S",
+      age: 24,
+      gender: "M",
+      kidFriendly: "N",
+      dogFriendly: "Y",
+      catFriendly: "N"
+    },
+    {
+      img: "kato.jpg",
+      alt: "dog-kato",
+      name: "Kato",
       info: [
         "Raza pequeña",
         "18 meses",
-        "Convive con niños y otros perros."
+        "Macho",
+        "Convive con niños y otras mascotas"
       ],
-      type: "perro",
-      size: "S"
+      size: "S",
+      age: 18,
+      gender: "M",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
     },
     {
-      img: "hamta.jpg",
-      alt: "hamta-img",
-      name: "Hamta",
+      img: "kiara.jpg",
+      alt: "dog-kiara",
+      name: "Kiara",
       info: [
-        "Hamster",
-        "2 meses"
+        "Raza pequeña",
+        "3 años",
+        "Hembra",
+        "No convive con niños ni otras mascotas"
       ],
-      type: "hamster",
-      size: "S"
+      size: "S",
+      age: 36,
+      gender: "F",
+      kidFriendly: "N",
+      dogFriendly: "N",
+      catFriendly: "N"
     },
     {
-      img: "sonic.jpg",
-      alt: "Sonic like the game!",
-      name: "Sonic",
-      info : [
-        "1 año",
+      img: "kobu.jpg",
+      alt: "dog-kobu",
+      name: "Kobu",
+      info: [
+        "Raza grande",
+        "4 años",
+        "Macho",
+        "Convive con niños y mascotas"
+      ],
+      size: "L",
+      age: 48,
+      gender: "M",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "L"
+    },
+    {
+      img: "lilo.jpg",
+      alt: "dog-lilo",
+      name: "Lilo",
+      info: [
+        "Raza pequeña",
+        "8 meses",
+        "Macho",
+        "No convive con niños ni mascotas"
+      ],
+      size: "S",
+      age: 8,
+      gender: "M",
+      kidFriendly: "N",
+      dogFriendly: "N",
+      catFriendly: "N"
+    },
+    {
+      img: "lion.jpg",
+      alt: "dog-lion",
+      name: "Lion",
+      info: [
+        "Raza pequeña",
+        "8 años",
+        "Macho",
         "Adopción especial"
       ],
-      type: "puerco espín",
-      size: "S"
+      size: "S",
+      age: 96,
+      gender: "M",
+      kidFriendly: "N",
+      dogFriendly: "N",
+      catFriendly: "N"
+    },
+    {
+      img: "marly.jpg",
+      alt: "dog-marly",
+      name: "Marly",
+      info: [
+        "Raza grande",
+        "3 meses",
+        "Macho",
+        "Convive con niños y mascotas"
+      ],
+      size: "L",
+      age: 3,
+      gender: "M",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
+    },
+    {
+      img: "mika.jpg",
+      alt: "dog-mika",
+      name: "Mika",
+      info: [
+        "Raza mediana",
+        "6 meses",
+        "Hembra",
+        "Convive con niños y mascotas"
+      ],
+      size: "M",
+      age: 6,
+      gender: "F",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
+    },
+    {
+      img: "mongo.jpg",
+      alt: "dog-mongo",
+      name: "Mongo",
+      info: [
+        "Raza grande",
+        "3 años",
+        "Macho",
+        "No convive con gatos"
+      ],
+      size: "L",
+      age: 36,
+      gender: "M",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "N"
+    },
+    {
+      img: "patto1.jpg",
+      alt: "dog-patto",
+      name: "Patto",
+      info: [
+        "Raza mediana",
+        "18 meses",
+        "Macho",
+        "Convive con niños y mascotas"
+      ],
+      size: "M",
+      age: 18,
+      gender: "M",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
+    },
+    {
+      img: "phily.jpg",
+      alt: "dog-phily",
+      name: "Phily",
+      info: [
+        "Raza pequeña",
+        "2 años",
+        "Hembra",
+        "No convive con niños ni mascotas"
+      ],
+      size: "S",
+      age: 24,
+      gender: "F",
+      kidFriendly: "N",
+      dogFriendly: "N",
+      catFriendly: "N"
+    },
+    {
+      img: "python.jpg",
+      alt: "dog-python",
+      name: "Python",
+      info: [
+        "Raza grande",
+        "2 años",
+        "Macho",
+        "Convive con niños y perros"
+      ],
+      size: "L",
+      age: 24,
+      gender: "M",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "N"
+    },
+    {
+      img: "sienna.jpg",
+      alt: "dog-sienna",
+      name: "Sienna",
+      info: [
+        "Raza pequeña",
+        "9 meses",
+        "Hembra",
+        "Convive con niños y mascotas"
+      ],
+      size: "S",
+      age: 9,
+      gender: "F",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
+    },
+    {
+      img: "stif.jpg",
+      alt: "dog-stif",
+      name: "Stif",
+      info: [
+        "Raza pequeña",
+        "12 meses",
+        "Macho",
+        "Adopción especial"
+      ],
+      size: "S",
+      age: 12,
+      gender: "M",
+      kidFriendly: "N",
+      dogFriendly: "N",
+      catFriendly: "N"
+    },
+    {
+      img: "wamba2.jpg",
+      alt: "dog-wamba",
+      name: "Wamba",
+      info: [
+        "Raza pequeña",
+        "2 años",
+        "Hembra",
+        "No convive con gatos"
+      ],
+      size: "S",
+      age: 24,
+      gender: "F",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "N"
     },
     {
       img: "xico.jpg",
-      alt: "Xico is a dog",
+      alt: "dog-xico",
       name: "Xico",
       info: [
-        "Raza grande",
-        "Cariñoso con los gatos"
+        "Raza pequeña",
+        "3 años",
+        "Macho",
+        "Convive con niños y mascotas"
       ],
-      type: "perro",
-      size: "L"
+      size: "S",
+      age: 36,
+      gender: "F",
+      kidFriendly: "Y",
+      dogFriendly: "Y",
+      catFriendly: "Y"
+    },
+    {
+      img: "yeyo.jpg",
+      alt: "dog-yeyo",
+      name: "Yeyo",
+      info: [
+        "Raza pequeña",
+        "18 meses",
+        "Macho",
+        "No convive con niños ni mascotas"
+      ],
+      size: "S",
+      age: 18,
+      gender: "M",
+      kidFriendly: "N",
+      dogFriendly: "N",
+      catFriendly: "N"
     }
   ];
 
@@ -93,7 +371,7 @@ const data = [
       p.appendChild(createElement("br"))
     })
     h3.innerText = pet.name;
-    img.src = `/images/top-pets/${pet.img}`;
+    img.src = `/images/dogs/${pet.img}`;
     img.alt = pet.alt;
   
     a.href = "#";
