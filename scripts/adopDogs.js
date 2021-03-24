@@ -9,12 +9,19 @@ const data = [
         "Hembra",
         "Convive con niños y otros perros"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 3,
-      gender: "F",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "F",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
+
     },
     {
       img: "bandit.jpg",
@@ -26,12 +33,18 @@ const data = [
         "Hembra",
         "No convive con gatos"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 15,
-      gender: "F",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "N"
+      sex: "F",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "chip.jpg",
@@ -43,12 +56,19 @@ const data = [
         "Macho",
         "Convive con otros perros"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 24,
-      gender: "M",
-      kidFriendly: "N",
-      dogFriendly: "Y",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "N",
+      isDogFriendly: "Y",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
+
     },
     {
       img: "kato.jpg",
@@ -60,12 +80,18 @@ const data = [
         "Macho",
         "Convive con niños y otras mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 18,
-      gender: "M",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "M",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "kiara.jpg",
@@ -77,12 +103,18 @@ const data = [
         "Hembra",
         "No convive con niños ni otras mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 36,
-      gender: "F",
-      kidFriendly: "N",
-      dogFriendly: "N",
-      catFriendly: "N"
+      sex: "F",
+      isKidFriendly: "N",
+      isDogFriendly: "N",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "kobu.jpg",
@@ -94,12 +126,18 @@ const data = [
         "Macho",
         "Convive con niños y mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "L",
       age: 48,
-      gender: "M",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "L"
+      sex: "M",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "L",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "lilo.jpg",
@@ -111,12 +149,18 @@ const data = [
         "Macho",
         "No convive con niños ni mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 8,
-      gender: "M",
-      kidFriendly: "N",
-      dogFriendly: "N",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "N",
+      isDogFriendly: "N",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "lion.jpg",
@@ -128,12 +172,18 @@ const data = [
         "Macho",
         "Adopción especial"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 96,
-      gender: "M",
-      kidFriendly: "N",
-      dogFriendly: "N",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "N",
+      isDogFriendly: "N",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "marly.jpg",
@@ -145,12 +195,18 @@ const data = [
         "Macho",
         "Convive con niños y mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "L",
       age: 3,
-      gender: "M",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "M",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "mika.jpg",
@@ -162,12 +218,18 @@ const data = [
         "Hembra",
         "Convive con niños y mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "M",
       age: 6,
-      gender: "F",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "F",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "mongo.jpg",
@@ -179,12 +241,18 @@ const data = [
         "Macho",
         "No convive con gatos"
       ],
+      category: "dog",
+      specie: "other",
       size: "L",
       age: 36,
-      gender: "M",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "patto1.jpg",
@@ -196,12 +264,18 @@ const data = [
         "Macho",
         "Convive con niños y mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "M",
       age: 18,
-      gender: "M",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "M",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "phily.jpg",
@@ -213,12 +287,18 @@ const data = [
         "Hembra",
         "No convive con niños ni mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 24,
-      gender: "F",
-      kidFriendly: "N",
-      dogFriendly: "N",
-      catFriendly: "N"
+      sex: "F",
+      isKidFriendly: "N",
+      isDogFriendly: "N",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "python.jpg",
@@ -230,12 +310,18 @@ const data = [
         "Macho",
         "Convive con niños y perros"
       ],
+      category: "dog",
+      specie: "other",
       size: "L",
       age: 24,
-      gender: "M",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "sienna.jpg",
@@ -247,12 +333,18 @@ const data = [
         "Hembra",
         "Convive con niños y mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 9,
-      gender: "F",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "F",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "stif.jpg",
@@ -264,12 +356,18 @@ const data = [
         "Macho",
         "Adopción especial"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 12,
-      gender: "M",
-      kidFriendly: "N",
-      dogFriendly: "N",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "N",
+      isDogFriendly: "N",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "wamba2.jpg",
@@ -281,12 +379,18 @@ const data = [
         "Hembra",
         "No convive con gatos"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 24,
-      gender: "F",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "N"
+      sex: "F",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "xico.jpg",
@@ -298,12 +402,18 @@ const data = [
         "Macho",
         "Convive con niños y mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 36,
-      gender: "F",
-      kidFriendly: "Y",
-      dogFriendly: "Y",
-      catFriendly: "Y"
+      sex: "F",
+      isKidFriendly: "Y",
+      isDogFriendly: "Y",
+      isCatFriendly: "Y",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     },
     {
       img: "yeyo.jpg",
@@ -315,12 +425,18 @@ const data = [
         "Macho",
         "No convive con niños ni mascotas"
       ],
+      category: "dog",
+      specie: "other",
       size: "S",
       age: 18,
-      gender: "M",
-      kidFriendly: "N",
-      dogFriendly: "N",
-      catFriendly: "N"
+      sex: "M",
+      isKidFriendly: "N",
+      isDogFriendly: "N",
+      isCatFriendly: "N",
+      sterilized: "Y",
+      vaccines: "1",
+      payment: "none",
+      status: 0
     }
   ];
 
