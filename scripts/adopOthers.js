@@ -111,7 +111,7 @@ const data = [
     }
   ];
 
-  const form = document.getElementById("form");
+  /*const form = document.getElementById("form");
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     const input = document.getElementById("filter");
@@ -124,7 +124,7 @@ const data = [
     return data.filter(function(pet) {
       return pet.type === type;
     });
-  }
+  }*/
   
   function createElement(type, classNames) {
     const element = document.createElement(type);
