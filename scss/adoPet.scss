@@ -106,6 +106,62 @@ main {
   }  
 }
 
+.landinginfo{
+  .divider {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-top: 2px solid $egg-yellow-color;
+  }
+
+  .heading {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      color: $olive-color;
+      margin: 0;
+      padding: 5px;
+     }
+   }
+
+   h5{
+    font-weight: bold;
+    color: $olive-color;
+    margin: 0;
+    padding: 5px;
+   }
+
+   mark{
+     color: $olive-color;
+   } 
+
+   ul {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 20px;
+  }  
+
+  .list{
+    list-style-type: initial;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  img{
+    width: 250px;
+    height: 250px;
+   }
+
+
+}
+
+
 .footer {
   background: $green-leaf-color;
   margin-top: 100px;

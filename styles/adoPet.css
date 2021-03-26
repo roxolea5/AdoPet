@@ -80,6 +80,50 @@ main img {
   font-weight: bold;
 }
 
+.landinginfo .divider {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-top: 2px solid #f1b24a;
+}
+.landinginfo .heading {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.landinginfo .heading h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #164a41;
+  margin: 0;
+  padding: 5px;
+}
+.landinginfo h5 {
+  font-weight: bold;
+  color: #164a41;
+  margin: 0;
+  padding: 5px;
+}
+.landinginfo mark {
+  color: #164a41;
+}
+.landinginfo ul {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 20px;
+}
+.landinginfo .list {
+  list-style-type: initial;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.landinginfo img {
+  width: 250px;
+  height: 250px;
+}
+
 .footer {
   background: #4d774e;
   margin-top: 100px;
