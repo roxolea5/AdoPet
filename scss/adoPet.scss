@@ -245,7 +245,7 @@ main {
 
 .pets-and-info {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 1fr);
   background-color: $egg-yellow-color;
   padding: 2% 3%;
 
@@ -258,53 +258,40 @@ main {
     display: flex;
     align-items: center;
     overflow: hidden;
-  }
 
-  img{
-    width: 300px;
-    height: 300px;
-  }
+    .top-pets-content {
+      margin-bottom: 1rem;
+      margin-top: 0;
+      padding: 30px 20px 40px 40px;
+      flex: 2;
+
+      figure{
+        text-align: center;
+      }
+
+      img{
+        width: 300px;
+        height: 300px;
+      }
+
+      h3 {
+        font-size: 24px;
+        color: #343434;
+        font-weight: 400;
+      }
+
+      p {
+        font-size: 16px;
+        color: #7e7e7e;
+        font-weight: 400;
+      }
+
+      a {
+        font-size: 16px;
+        color: #67b54b;
+        font-weight: 600;
+        text-decoration: none;
+      }
+    }
+  }  
 }
-
-
-
-
-
-  .pets-and-info .top-pets .top-pets-content {
-  padding: 30px 20px 40px 40px;
-  flex: 2;
-  }
-  .pets-and-info .top-pets .top-pets-content > * {
-  margin-bottom: 1rem;
-  margin-top: 0;
-  }
-  
-  .pets-and-info .top-pets .top-pets-content h3 {
-  font-size: 24px;
-  color: #343434;
-  font-weight: 400;
-  }
-  .pets-and-info .top-pets .top-pets-content p {
-  font-size: 16px;
-  color: #7e7e7e;
-  font-weight: 400;
-  }
-  .pets-and-info .top-pets .top-pets-content a {
-  font-size: 16px;
-  color: #67b54b;
-  font-weight: 600;
-  text-decoration: none;
-  }
-  .pets-and-info .top-pets .pet-image {
-  flex: 1;
-  width: 40%;
-  position: relative;
-  right: -50px;
-  height: 80%;
-  }
-  .pets-and-info .top-pets .pet-image figure,
-  .pets-and-info .top-pets .pet-image img {
-  margin-top: 0;
-  height: 100%;
-  }
-  
